@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#4A4A4A" />
+    <title>topher • Home</title>
+    <meta name="description" content="Personal portfolio website for showcasing projects, skills, and contact information." />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Go to home">topher.dev</a>
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i> 
+          </button>
+          <ul id="primary-menu" class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" aria-pressed="false" aria-label="Toggle theme">
+          <span class="theme-icon icon-dark" aria-hidden="true"><i class="fas fa-moon"></i></span>
+          <span class="theme-icon icon-light" aria-hidden="true"><i class="fas fa-sun"></i></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="home" class="section hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1><span class="auto-type"></span>
+          </h1>
+            <p class="lead">I’m a Frontend Developer known for creating clean UIs, accessible designs, and responsive web experiences.</p>
+            <div class="social">
+              <a href="https://github.com/alinsub16" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+              <a href="https://www.linkedin.com/in/christopher-alinsub/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+              <a href="mailto:alinsubtopher16@gmail.com"><i class="fas fa-envelope"></i>Email</a>
+            </div>
+            <div class="cta-group">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-ghost" href="/file/resume.pdf" download="">Resume</a>
+            </div>
+
+          </div>
+          <div class="hero-figure" aria-hidden="true">
+            <figure>
+              <img src="/images/topher-img.png" alt="Portrait placeholder" />
+            </figure>
+            <div class="background"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">About me</h2>
+            <p class="subtitle">Developing responsive, performance-driven web apps.</p>
+          </div>
+          <div class="about-box">
+            <div class="about-grid">
+              <div class="about-col">
+                <p>
+                  I’m a Frontend Web Developer who loves building responsive, user-friendly websites. I specialize in website maintenance, content updates, page creation, layout optimization, malware checks, SEO improvements, and converting design layouts into functional websites.
+                </p>
+                <p>Currently, I’m expanding my skills beyond static websites by exploring dynamic web applications and focusing on modern, trending technologies.</p>
+                <p>Feel free to explore my projects below, and let’s connect if you’d like to collaborate.</p>
+                <a class="btn btn-ghost" href="#contact">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section alt">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Experience</h2>
+            <p class="subtitle">Selected roles and the projects I delivered.</p>
+          </div>
+          <div class="experience-list">
+            <article class="experience-item">
+              <div class="xp-header">
+                <h3>Frontend Web Developer • Proweaver</h3>
+                <span class="xp-meta">2024 – Present • Onsite</span>
+              </div>
+              <p>In this company, our main tasks are modifying client websites and providing maintenance. We update content, create new pages, adjust page layouts, optimize websites, check for malware, submit sitemaps to Google and Bing, and convert design layouts from designers.</p>
+              <p>The boxes below show some of the projects I’ve worked on. Please note that only the pages I personally converted are the ones I’ve linked.</p>
+              <div class="xp-projects">
+                <div class="xp-project">
+                  <p class="xp-project-title">Task 1</p>
+                  <p class="xp-project-desc">Converted layout and added a modal to each card.</p>
+                  <div class="tags">
+                    <img src="/images/wordpress-icon.png" alt="Wordpress">
+                    <img src="/images/html-icon.png" alt="Html">
+                    <img src="/images/css-icon.png" alt="Css">
+                    <img src="/images/jquery-icon.png" alt="Jquery">
+                  </div>
+                  <a class="btn btn-sm btn-ghost" href="https://w17038.proweaversite17.com/medical-equipment-and-supplies-our-products/power-wheelchairs-and-mobility-scooters" target="_blank">View Site</a>
+                </div>
+                <div class="xp-project">
+                  <p class="xp-project-title">Task 2</p>
+                  <p class="xp-project-desc">Converted layouts provided by the design team.</p>
+                  <div class="tags">
+                     <img src="/images/wordpress-icon.png" alt="Wordpress">
+                    <img src="/images/html-icon.png" alt="Html">
+                    <img src="/images/css-icon.png" alt="Css">
+                    <img src="/images/jquery-icon.png" alt="Jquery">
+                  </div>
+                   <a class="btn btn-sm btn-ghost" href="https://w17121.proweaversite17.com/electrical-services/residential/electrical-panel-upgrade" target="_blank">View Site</a>
+                </div>
+                 <div class="xp-project">
+                  <p class="xp-project-title">Task 3</p>
+                  <p class="xp-project-desc">Converted layout and added a flipbox effect to the cards</p>
+                  <div class="tags">
+                     <img src="/images/wordpress-icon.png" alt="Wordpress">
+                    <img src="/images/html-icon.png" alt="Html">
+                    <img src="/images/css-icon.png" alt="Css">
+                    <img src="/images/jquery-icon.png" alt="Jquery">
+                  </div>
+                   <a class="btn btn-sm btn-ghost" href="https://w17083.proweaversite17.com/non-profit-organization-services/capacity-building" target="_blank">View Site</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="experience-item">
+              <div class="xp-header">
+                <h3>Technical Support • Infocom Tech</h3>
+                <span class="xp-meta">2023 – 2024 • Onsite</span>
+              </div>
+              <p>Our primary responsibility is to handle client calls and provide support for issues related to internet connectivity.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section alt">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Personal Projects</h2>
+            <p class="subtitle">Independent work and experiments.</p>
+          </div>
+          <div class="project-card-con">
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Movie Search</h3>
+                <p class="card-text">Responsive web app with real-time search up to latest movie</p>
+                <div class="projects-tags">
+                  <img src="/images/react-icon.png" alt="React js">
+                  <img src="/images/tailwindcss-icon.png" alt="TailwindCSS">
+                </div>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-sm btn-ghost" href="https://alinsub16.github.io/movie-search/" target="_blank">View Site</a>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">To-DO App</h3>
+                <p class="card-text">Responsive design with weather updates and inspirational quotes.</p>
+                <div class="projects-tags">
+                  <img src="/images/react-icon.png" alt="React JS">
+                  <img src="/images/nodeJS-icon.png" alt="Node JS">
+                  <img src="/images/expressjs-icon.png" alt="Express JS">
+                  <img src="/images/mongoDB-icon.png" alt="Mongo DB">
+                  <img src="/images/tailwindcss-icon.png" alt="TailwindCSS">
+                  <img src="/images/axios-icon.png" alt="Axios">
+                </div>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-sm btn-ghost" href="https://alinsub16.github.io/todolist-UI/" target="_blank">View Site</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Skills</h2>
+            <p class="subtitle">Tools and technologies I work with to design and build modern web applications.</p>
+          </div>
+          <div class="skills-content">
+            <div class="skills-category">
+              <h3 class="skills-title">Frontend</h3>
+              <ul class="skills-list">
+                <li class="skill-item">
+                  <span class="skill-name">HTML5 &amp; CSS3</span>
+                  <span class="skill-right"><span class="skill-desc">Semantic, responsive layouts</span></span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">JavaScript (ES6+)</span>
+                  <span class="skill-right"><span class="skill-desc">Core language fundamentals</span></span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">React</span>
+                  <span class="skill-right"><span class="skill-desc">Component-based architecture, hooks, and state management</span></span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">Bootstrap</span>
+                  <span class="skill-right"><span class="skill-desc">Responsive grid system and components</span></span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">TailwindCSS</span>
+                  <span class="skill-right"><span class="skill-desc">Utility-first styling</span></span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="skills-category">
+              <h3 class="skills-title">Backend</h3>
+              <ul class="skills-list">
+                <li class="skill-item">
+                  <span class="skill-name">Node.js</span>
+                  <span class="skill-right"><span class="skill-desc">Building backend services and APIs</span><span class="skill-badge">Learning</span></span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">Express.js</span>
+                  <span class="skill-right"><span class="skill-desc">REST APIs, routing, and middleware</span><span class="skill-badge">Learning</span></span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="skills-category">
+              <h3 class="skills-title">Database</h3>
+              <ul class="skills-list">
+                <li class="skill-item">
+                  <span class="skill-name">MySQL</span>
+                  <span class="skill-right"><span class="skill-desc">Database design and management</span></span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">MongoDB</span>
+                  <span class="skill-right"><span class="skill-desc">NoSQL database for scalable applications</span><span class="skill-badge">Learning</span></span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="skills-category">
+              <h3 class="skills-title">CMS</h3>
+              <ul class="skills-list">
+                <li class="skill-item">
+                  <span class="skill-name">WordPress</span>
+                  <span class="skill-right"><span class="skill-desc">Custom themes, CMS integration</span></span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="skills-category">
+              <h3 class="skills-title">Design &amp; Tools</h3>
+              <ul class="skills-list">
+                <li class="skill-item">
+                  <span class="skill-name">Xara</span>
+                  <span class="skill-right"><span class="skill-desc">Graphic design, UI assets, and creative visuals</span></span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">Git &amp; GitHub</span>
+                  <span class="skill-right"><span class="skill-desc">Version control and collaboration</span></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section alt">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Contact me</h2>
+            <p class="subtitle">Let’s build something great together.</p>
+          </div>
+          <div class="contact-info">
+            <div class="contact-cards">
+              <a class="contact-card" href="mailto:alinsubtopher16@gmail.com">
+                <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                <div class="contact-content">
+                  <span class="contact-label">Email</span>
+                  <span class="contact-value">alinsubtopher16@gmail.com</span>
+                </div>
+              </a>
+              <a class="contact-card" href="https://github.com/alinsub16" target="_blank" rel="noopener">
+                <span class="contact-icon"> <i class="fab fa-github"></i></span>
+                <div class="contact-content">
+                  <span class="contact-label">GitHub</span>
+                  <span class="contact-value">github.com/alinsub16</span>
+                </div>
+              </a>
+              <a class="contact-card" href="https://www.linkedin.com/in/christopher-alinsub/" target="_blank" rel="noopener">
+                <span class="contact-icon"><i class="fab fa-linkedin"></i></span>
+                <div class="contact-content">
+                  <span class="contact-label">LinkedIn</span>
+                  <span class="contact-value">in/christopher-alinsub</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> topher.dev</p>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+ 
+ <script>
+    var typed = new Typed(".auto-type", {
+    strings: ["Hi, I’m Christopher <br>I build modern web <br>experiences."],
+    typeSpeed: 60,
+    backSpeed: 60,
+    loop: true,
+    loopCount: Infinity,
+    // showCursor: true,
+    // backDelay: 999999
+    });
+ </script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  </body>
+  
+  </html>
+
+
