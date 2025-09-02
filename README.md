@@ -2,12 +2,6 @@
 
 A lightweight, responsive personal portfolio built with vanilla HTML, CSS, and JavaScript.
 
-## Features
-- Mobile-friendly layout with sticky header and accessible skip link
-- Theme toggle (light/dark) with preference saved in `localStorage`
-- Responsive navigation menu with a11y-friendly toggle button
-- Project cards grid, skills list, and contact form with client-side validation
-- Minimal, modern design using CSS variables; no frameworks
 
 ## Getting Started
 1. Open `index.html` in your browser.
